@@ -18,6 +18,18 @@ public class GPS0hN0Problem implements GPSProblem {
 		init_board[0][6] = new GPS0hN0Cell(4,Color.blue,true);
 		init_board[1][0] = new GPS0hN0Cell(5,Color.blue,true);
 		init_board[1][2] = new GPS0hN0Cell(6, Color.blue, true);
+		init_board[1][3] = new GPS0hN0Cell(5,Color.blue,true);
+		init_board[2][3] = new GPS0hN0Cell(2, Color.blue, true);
+		init_board[3][6] = new GPS0hN0Cell(0, Color.red, true);
+		init_board[4][0] = new GPS0hN0Cell(7, Color.blue, true);
+		init_board[4][1] = new GPS0hN0Cell(7, Color.blue, true);
+		init_board[4][3] = new GPS0hN0Cell(5, Color.blue, true);
+		init_board[4][4] = new GPS0hN0Cell(7, Color.blue, true);
+		init_board[4][5] = new GPS0hN0Cell(6, Color.blue, true);
+		init_board[5][0] = new GPS0hN0Cell(3, Color.blue, true);
+		init_board[6][0] = new GPS0hN0Cell(2, Color.blue, true);
+		init_board[6][5] = new GPS0hN0Cell(4, Color.blue, true);
+		init_board[6][6] = new GPS0hN0Cell(5, Color.blue, true);
 		
 		
 		return null;
